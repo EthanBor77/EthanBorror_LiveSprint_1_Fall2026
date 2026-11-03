@@ -1,1 +1,51 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <h1>Welcome to the Interactive Reveal What is that Animal UI</h1>
+      </header>
+      <section class="instructions">
+        <h2>Click on the buttons below to reveal the animal images</h2>
+      </section>
+      <section class="body-container">
+        <section class="image-container" id="cat-image">
+          <img src="images/tabby-cat.jpg" alt="A cat" />
+          <button class="hide-button" id="hide-cat" type="button">
+            Hide Result
+          </button>
+        </section>
+        <section class="image-container" id="dog-image">
+          <img src="images/dog.jpg" alt="A dog" />
+          <button class="hide-button" id="hide-dog" type="button">
+            Hide Result
+          </button>
+        </section>
+        <section class="image-container" id="cow-image">
+          <img src="images/cow.jpg" alt="A cow" />
+          <button class="hide-button" id="hide-cow" type="button">
+            Hide Result
+          </button>
+        </section>
+      </section>
+      <section class="buttons-container">
+        <button class="reveal-button" id="reveal-cat" type="button">
+          Reveal a CAT
+        </button>
+        <button class="reveal-button" id="reveal-dog" type="button">
+          Reveal a DOG
+        </button>
+        <button class="reveal-button" id="reveal-cow" type="button">
+          Reveal a COW
+        </button>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
